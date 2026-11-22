@@ -1,4 +1,4 @@
-apiVersion: //coreos.com
+apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   name: kubevirt-hyperconverged
