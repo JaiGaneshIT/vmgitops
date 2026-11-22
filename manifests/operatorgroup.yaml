@@ -1,4 +1,4 @@
-apiVersion: //coreos.com
+apiVersion: ://coreos.com
 kind: OperatorGroup
 metadata:
   name: kubevirt-hyperconverged-group
