@@ -1,0 +1,10 @@
+apiVersion: ://coreos.com
+kind: OperatorGroup
+metadata:
+  name: kubevirt-hyperconverged-group
+  namespace: openshift-cnv
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+spec:
+  targetNamespaces:
+    - openshift-cnv
